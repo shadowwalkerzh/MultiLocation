@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#2D2D2D"
+        android:gravity="center"
+        android:text="多元定位"
+        android:textColor="#F8F8F8"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FAFAFA"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:background="#FAFAFA"
+            android:gravity="center"
+            android:text="经纬度(-36.880595,174.797636)"
+            android:textColor="#2D2D2D"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/location_method"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="#FAFAFA"
+            android:gravity="center"
+            android:text="定位方式(默认)"
+            android:textColor="#2D2D2D"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/location_state"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:background="#FAFAFA"
+            android:gravity="center"
+            android:text="定位状态(搜索中)"
+            android:textColor="#2D2D2D"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>
